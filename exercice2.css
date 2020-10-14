@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbarre*/
+.navbar {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    background-color: rgba(6, 58, 19, 0.651);
+    box-shadow: 0 4px 10px rgba(4, 29, 6, 0.527)
+}
+
+
+.topbar nav {
+    float: left;
+    padding: 20px;
+}
+
+.topbar nav a {
+    color: rgb(222, 228, 228);
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.social {
+    float: right;
+    margin-top: 15px;
+}
+
+.social a {
+    padding: 0 11px;
+}
+
+/*Fin Navbarre*/
+
+.banniere {
+    height: 420px;
+    background: url("Img/header.jpg");
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.267)
+}
+
+.body {
+    display: flex;
+    background-color: rgba(246, 255, 255, 0.596);
+}
+
+.container {
+    background: #ffffff;
+    max-width: 940px;
+    margin: 3em auto 0;
+    border-radius: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    margin-bottom: 3em;
+}
+
+.article {
+    position: relative;
+    margin: 50px 0;
+    margin-bottom: 2em;
+    padding-left: 33px;
+    min-height: 150px;
+}
+
+.article img {
+    float: left;
+    width: 50%;
+    margin-left: 1em;
+    margin-right: 25px;
+    border-radius: 8px;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+}
+
+.article p {
+    text-align: center;
+    padding-top: 25px;
+}
